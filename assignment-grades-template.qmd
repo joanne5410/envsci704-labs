@@ -1,0 +1,95 @@
+---
+title: "Assignment X: [replace with the assignment title]"
+author: "Your Name (Student ID)"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    code-fold: false
+    embed-resources: true
+    number-sections: true
+execute:
+  warning: false
+bibliography: references.bib   # delete this line if you are not citing anything
+---
+
+<!--
+============================================================
+ENVSCI 704 assignment template
+============================================================
+This file is longer and more structured than the lab template.
+Assignments are graded on interpretation and communication as much as
+on getting the code to run, so leave room for prose.
+
+Suggested workflow:
+1. Copy this file into `assignment-0X-topic/` in your GitHub repo.
+2. Rename it to `analysis.qmd` (or similar).
+3. Read the assignment brief carefully and fill in every "Task" heading.
+4. Write the report (`report.md` or `report.pdf`) in the SAME folder,
+   not inside this file. This file is your working notebook.
+============================================================
+-->
+
+## Setup
+
+```{python}
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# lock the random seed if the task involves stochastic runs
+# np.random.seed(704)
+```
+
+## Task 1: [rename to match the brief]
+
+Write a sentence explaining what this task asks and what you did.
+
+```{python}
+# your code here
+```
+
+**Answer:** _(short prose)_
+
+## Task 2: [rename to match the brief]
+
+```{python}
+# your code here
+```
+
+**Answer:** _(short prose, refer to the figure above)_
+
+## Task 3: [rename to match the brief]
+
+```{python}
+# your code here
+```
+
+**Answer:** _(short prose)_
+
+## Task 4: Limitations
+
+List at least four limitations of the model as a tool for the specific question you were asked. Two sentences each is enough — depth beats length.
+
+1. **Limitation:** _(one sentence)_
+   Why it matters here: _(one sentence)_
+2. **Limitation:** ...
+3. **Limitation:** ...
+4. **Limitation:** ...
+
+## Notes for the report
+
+Use this section to collect the numbers and figures you will paste into `report.md`. It is not marked directly, but a tidy notes section makes writing the report much faster.
+
+- **Key figure 1**: ...
+- **Key number**: ...
+- **Key finding in one sentence**: ...
+
+## Checklist before you push
+
+- [ ] Every task in the brief has its own heading and its own code cell(s)
+- [ ] Figures have labelled axes, titles, and legends where relevant
+- [ ] Limitations section is specific to *this* assignment's question, not generic
+- [ ] The report is a separate file (`report.md` or `report.pdf`) in the same folder
+- [ ] Folder is named `assignment-0X-topic/` and contains: this `.qmd`, the report, and any raw data
