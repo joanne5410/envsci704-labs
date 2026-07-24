@@ -1,0 +1,81 @@
+---
+title: "Lab XX: [replace with the lab title]"
+author: "Your Name (Student ID)"
+date: today
+format:
+  html:
+    toc: true
+    code-fold: false
+    embed-resources: true
+execute:
+  warning: false
+---
+
+<!--
+============================================================
+ENVSCI 704 lab template
+============================================================
+How to use this file:
+
+1. Copy it into your GitHub course repo and rename it, e.g.
+   `lab-02-numerical.qmd`.
+2. Fill in the YAML header above (title, your name, student ID).
+3. Work through the tasks below. Delete any sections you do not need.
+4. Render locally with the "Render" button in VS Code, or:
+       quarto render lab-XX-topic.qmd
+5. Commit and push. Submit the link on Canvas.
+
+Tips:
+- One question, one small code cell — do not put everything in one big block.
+- Write short answers in prose *between* code cells, not as comments in code.
+- Rename figures with `#| fig-cap: "..."` so the reader knows what they are.
+- Round floats when you print: `f"{value:.2f}"`.
+============================================================
+-->
+
+## Setup
+
+```{python}
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+```
+
+## Part A: [rename to match the lab]
+
+Write one sentence describing what this part is doing.
+
+```{python}
+# your code here
+```
+
+**Answer to task A1:** _(one to three sentences)_
+
+**Answer to task A2:** _(one to three sentences)_
+
+## Part B: [rename to match the lab]
+
+```{python}
+# your code here
+
+fig, ax = plt.subplots(figsize=(6, 4))
+# ax.plot(...)
+ax.set_xlabel("...")
+ax.set_ylabel("...")
+ax.set_title("...")
+plt.show()
+```
+
+**Answer to task B1:** _(short answer)_
+
+## Reflection
+
+Write two to four sentences on what surprised you, what you got stuck on, and what you would do differently next time. This section is worth marks — do not leave it blank.
+
+## Checklist before you push
+
+- [ ] Every task has a code cell **and** a short prose answer
+- [ ] Every figure has axis labels and a title
+- [ ] Your name and student ID are in the YAML header
+- [ ] The file renders cleanly (no red error boxes in the HTML output)
+- [ ] Filename is `lab-XX-topic.qmd`, not `Untitled.qmd`
